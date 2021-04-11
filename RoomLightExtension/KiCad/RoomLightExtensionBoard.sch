@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 6044B11E
+P 5000 3500
+F 0 "D1" V 5039 3382 50  0000 R CNN
+F 1 "LED" V 4948 3382 50  0000 R CNN
+F 2 "footprint:LED_1608" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6044ABF7
+P 5000 3000
+F 0 "R1" H 5070 3046 50  0000 L CNN
+F 1 "472" H 5070 2955 50  0000 L CNN
+F 2 "footprint:R_1608_v2" V 4930 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3150 5000 3350
+Wire Wire Line
+	5000 2850 5000 2650
+Wire Wire Line
+	5000 3650 5000 3850
+$Comp
+L Device:LED D2
+U 1 1 6044E253
+P 5500 3500
+F 0 "D2" V 5539 3382 50  0000 R CNN
+F 1 "LED" V 5448 3382 50  0000 R CNN
+F 2 "footprint:LED_1608" H 5500 3500 50  0001 C CNN
+F 3 "~" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6044E259
+P 5500 3000
+F 0 "R2" H 5570 3046 50  0000 L CNN
+F 1 "472" H 5570 2955 50  0000 L CNN
+F 2 "footprint:R_1608_v2" V 5430 3000 50  0001 C CNN
+F 3 "~" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3150 5500 3350
+Wire Wire Line
+	5500 2850 5500 2650
+Wire Wire Line
+	5500 3650 5500 3850
+$Comp
+L Device:LED D3
+U 1 1 6044E818
+P 6000 3500
+F 0 "D3" V 6039 3382 50  0000 R CNN
+F 1 "LED" V 5948 3382 50  0000 R CNN
+F 2 "footprint:LED_1608" H 6000 3500 50  0001 C CNN
+F 3 "~" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6044E81E
+P 6000 3000
+F 0 "R3" H 6070 3046 50  0000 L CNN
+F 1 "472" H 6070 2955 50  0000 L CNN
+F 2 "footprint:R_1608_v2" V 5930 3000 50  0001 C CNN
+F 3 "~" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3150 6000 3350
+Wire Wire Line
+	6000 2850 6000 2650
+Wire Wire Line
+	6000 3650 6000 3850
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 6044ECF8
+P 4500 2650
+F 0 "J1" H 4418 2425 50  0000 C CNN
+F 1 "PAD" H 4418 2516 50  0000 C CNN
+F 2 "footprint:PCB_CONN_PAD_2.5mmx1.2mm" H 4500 2650 50  0001 C CNN
+F 3 "~" H 4500 2650 50  0001 C CNN
+	1    4500 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 6044F0A3
+P 6500 2650
+F 0 "J2" H 6580 2692 50  0000 L CNN
+F 1 "PAD" H 6580 2601 50  0000 L CNN
+F 2 "footprint:PCB_CONN_PAD_2.5mmx1.2mm" H 6500 2650 50  0001 C CNN
+F 3 "~" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 6044F459
+P 4500 3850
+F 0 "J3" H 4418 3625 50  0000 C CNN
+F 1 "PAD" H 4418 3716 50  0000 C CNN
+F 2 "footprint:PCB_CONN_PAD_2.5mmx1.2mm" H 4500 3850 50  0001 C CNN
+F 3 "~" H 4500 3850 50  0001 C CNN
+	1    4500 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 6044FB82
+P 6500 3850
+F 0 "J4" H 6580 3892 50  0000 L CNN
+F 1 "PAD" H 6580 3801 50  0000 L CNN
+F 2 "footprint:PCB_CONN_PAD_2.5mmx1.2mm" H 6500 3850 50  0001 C CNN
+F 3 "~" H 6500 3850 50  0001 C CNN
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3850 6000 3850
+Wire Wire Line
+	6000 3850 5500 3850
+Connection ~ 6000 3850
+Wire Wire Line
+	5500 3850 5000 3850
+Connection ~ 5500 3850
+Wire Wire Line
+	5000 3850 4700 3850
+Connection ~ 5000 3850
+Wire Wire Line
+	4700 2650 5000 2650
+Wire Wire Line
+	5000 2650 5500 2650
+Connection ~ 5000 2650
+Wire Wire Line
+	5500 2650 6000 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	6000 2650 6300 2650
+Connection ~ 6000 2650
+$Comp
+L power:+12V #PWR0101
+U 1 1 60450ED9
+P 5500 2500
+F 0 "#PWR0101" H 5500 2350 50  0001 C CNN
+F 1 "+12V" H 5515 2673 50  0000 C CNN
+F 2 "" H 5500 2500 50  0001 C CNN
+F 3 "" H 5500 2500 50  0001 C CNN
+	1    5500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2500 5500 2650
+Wire Wire Line
+	5500 3850 5500 4000
+$Comp
+L power:GND #PWR0102
+U 1 1 60451797
+P 5500 4000
+F 0 "#PWR0102" H 5500 3750 50  0001 C CNN
+F 1 "GND" H 5505 3827 50  0000 C CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
