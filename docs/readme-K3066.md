@@ -10,10 +10,10 @@ KATO製鉄道模型に搭載されている、3066と刻印のある基板と交
 ![PCB Compare](image/k3066-comp.jpg)
 
 
-  * [基板設計データ](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3066/KiCad)
-  * [面付けデータ](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3066/KiCad-Panelized)
-  * [ガーバーデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3066/Gerber-Panelized)
-  * [メタルマスクデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3066/Stencil-Panelized)
+  * [基板設計データ](../K3066/KiCad)
+  * [面付けデータ](../K3066/KiCad-Panelized)
+  * [ガーバーデータ(面付け済)](../K3066/Gerber-Panelized)
+  * [メタルマスクデータ(面付け済)](../K3066/Stencil-Panelized)
   
 面付け済みのデータについては、elecrowにて製造できることを確認済みです。
 

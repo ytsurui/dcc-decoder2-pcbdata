@@ -7,10 +7,10 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
 
 TOMIX製やマイクロエース製の室内灯に近い形としており、室内灯一体型デコーダとしての利用が可能です。
 
-  * [基板設計データ](https://github.com/ytsurui/dcc-decoder2-pcbdata/RoomLightNarrow/KiCad)
-  * [面付けデータ](https://github.com/ytsurui/dcc-decoder2-pcbdata/RoomLightNarrow/KiCad-Panelized)
-  * [ガーバーデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/RoomLightNarrow/Gerber-Panelized)
-  * [メタルマスクデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/RoomLightNarrow/Stencil-Panelized)
+  * [基板設計データ](../RoomLightNarrow/KiCad)
+  * [面付けデータ](../RoomLightNarrow/KiCad-Panelized)
+  * [ガーバーデータ(面付け済)](../RoomLightNarrow/Gerber-Panelized)
+  * [メタルマスクデータ(面付け済)](../RoomLightNarrow/Stencil-Panelized)
   
 面付け済みのデータについては、elecrowにて製造できることを確認済みです。
 

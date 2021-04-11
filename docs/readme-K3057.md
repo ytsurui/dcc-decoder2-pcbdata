@@ -7,10 +7,10 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
 KATO製鉄道模型に搭載されている、3057と刻印のある基板と交換して取り付けができます。
 <br>(その他、3010や3023など、形状が同等である他の刻印の基板との交換にも対応できる場合があります。)
 
-  * [基板設計データ](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3057/KiCad)
-  * [面付けデータ](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3057/KiCad-Panelized)
-  * [ガーバーデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3057/Gerber-Panelized)
-  * [メタルマスクデータ(面付け済)](https://github.com/ytsurui/dcc-decoder2-pcbdata/K3057/Stencil-Panelized)
+  * [基板設計データ](../K3057/KiCad)
+  * [面付けデータ](../K3057/KiCad-Panelized)
+  * [ガーバーデータ(面付け済)](../K3057/Gerber-Panelized)
+  * [メタルマスクデータ(面付け済)](../K3057/Stencil-Panelized)
   
 面付け済みのデータについては、elecrowにて製造できることを確認済みです。
 
