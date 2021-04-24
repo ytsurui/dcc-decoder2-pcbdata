@@ -124,7 +124,7 @@ Wire Wire Line
 Text GLabel 1500 2600 0    50   Input ~ 0
 Func1
 Text GLabel 4800 2600 0    50   Input ~ 0
-Func3
+Func5
 Wire Wire Line
 	5000 2600 4800 2600
 Wire Wire Line
@@ -160,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 3000 6800 2800
 Text GLabel 6300 2600 0    50   Input ~ 0
-Func4
+Func3
 Wire Wire Line
 	6500 2600 6300 2600
 $Comp
@@ -253,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3000 8300 2800
 Text GLabel 7800 2600 0    50   Input ~ 0
-Func5
+Func6
 Wire Wire Line
 	8000 2600 7800 2600
 $Comp
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 3000 9800 2800
 Text GLabel 9300 2600 0    50   Input ~ 0
-Func6
+Func2
 Wire Wire Line
 	9500 2600 9300 2600
 $Comp
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3300 3600 3500
 Text GLabel 3100 2600 0    50   Input ~ 0
-Func2
+Func4
 Wire Wire Line
 	3300 2600 3100 2600
 $Comp
@@ -434,7 +434,7 @@ F 3 "~" H 5400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4800 6000 0    50   Input ~ 0
-Func5
+Func6
 Wire Wire Line
 	5000 6000 4800 6000
 $Comp
@@ -503,7 +503,7 @@ F 3 "~" H 7000 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 6700 4900 0    50   Input ~ 0
-Func8
+DIR_JP
 Wire Wire Line
 	6700 4900 7000 4900
 Wire Wire Line
@@ -581,7 +581,7 @@ U 1 1 600E2350
 P 1950 4850
 F 0 "J19" V 1914 4762 50  0000 R CNN
 F 1 "PAD" V 1823 4762 50  0000 R CNN
-F 2 "footprint:PAD_0.6x1.0_SMD" H 1950 4850 50  0001 C CNN
+F 2 "footprint:PAD_1.0x1.4_SMD" H 1950 4850 50  0001 C CNN
 F 3 "~" H 1950 4850 50  0001 C CNN
 	1    1950 4850
 	0    -1   -1   0   
@@ -616,8 +616,6 @@ F 3 "~" H 9900 2600 50  0001 C CNN
 	2    9700 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 3100 6000 0    50   Input ~ 0
-Func4
 Wire Wire Line
 	3300 6000 3100 6000
 $Comp
@@ -634,10 +632,10 @@ F 3 "~" H 3600 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0137
 U 1 1 6048E65A
 P 3600 6900
-F 0 "#PWR?" H 3600 6650 50  0001 C CNN
+F 0 "#PWR0137" H 3600 6650 50  0001 C CNN
 F 1 "GND" H 3605 6727 50  0000 C CNN
 F 2 "" H 3600 6900 50  0001 C CNN
 F 3 "" H 3600 6900 50  0001 C CNN
@@ -660,10 +658,10 @@ F 3 "~" H 3600 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0138
 U 1 1 6048E670
 P 3600 4900
-F 0 "#PWR?" H 3600 4750 50  0001 C CNN
+F 0 "#PWR0138" H 3600 4750 50  0001 C CNN
 F 1 "+12V" H 3615 5073 50  0000 C CNN
 F 2 "" H 3600 4900 50  0001 C CNN
 F 3 "" H 3600 4900 50  0001 C CNN
@@ -674,4 +672,30 @@ Wire Wire Line
 	3600 5100 3600 4900
 Wire Wire Line
 	3600 5400 3600 5800
+$Comp
+L Connector_Generic:Conn_01x01 J13
+U 1 1 6093B9B8
+P 6800 1500
+F 0 "J13" V 6672 1580 50  0000 L CNN
+F 1 "PAD" V 6763 1580 50  0000 L CNN
+F 2 "footprint:PAD_1.0x1.8_SMD" H 6800 1500 50  0001 C CNN
+F 3 "~" H 6800 1500 50  0001 C CNN
+	1    6800 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 1300 6800 1100
+$Comp
+L power:+12V #PWR0139
+U 1 1 6093CF27
+P 6800 1100
+F 0 "#PWR0139" H 6800 950 50  0001 C CNN
+F 1 "+12V" H 6815 1273 50  0000 C CNN
+F 2 "" H 6800 1100 50  0001 C CNN
+F 3 "" H 6800 1100 50  0001 C CNN
+	1    6800 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 6000 0    50   Input ~ 0
+Func3
 $EndSCHEMATC
