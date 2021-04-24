@@ -40,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2400 5300 2000
 Text GLabel 4800 2600 0    50   Input ~ 0
-Func3
+Func5
 Wire Wire Line
 	5000 2600 4800 2600
 Wire Wire Line
@@ -59,7 +59,7 @@ $EndComp
 Wire Wire Line
 	6800 2400 6800 2000
 Text GLabel 6300 2600 0    50   Input ~ 0
-Func4
+Func3
 Wire Wire Line
 	6500 2600 6300 2600
 $Comp
@@ -109,7 +109,7 @@ $EndComp
 Wire Wire Line
 	8300 2400 8300 2000
 Text GLabel 7800 2600 0    50   Input ~ 0
-Func5
+Func6
 Wire Wire Line
 	8000 2600 7800 2600
 $Comp
@@ -126,7 +126,7 @@ $EndComp
 Wire Wire Line
 	9800 2400 9800 2000
 Text GLabel 9300 2600 0    50   Input ~ 0
-Func6
+Func2
 Wire Wire Line
 	9500 2600 9300 2600
 $Comp
@@ -593,7 +593,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5900 5050 5900
 Text GLabel 3100 2600 0    50   Input ~ 0
-Func2
+Func4
 Text GLabel 1500 2600 0    50   Input ~ 0
 Func1
 $Comp
