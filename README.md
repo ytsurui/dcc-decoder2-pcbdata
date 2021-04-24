@@ -4,13 +4,6 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
 
 主にNゲージ鉄道模型への搭載を想定して小型に設計しております。
 
-## 注意
-
-本リリースはベータリリースのため、回路図・基板パターンに未修正のバグを含みます。
-
-近日中に改修を行ったデータに変更します。
-
-
 
 ## すべての基板に共通するスペック
   * 走行用モーター出力
@@ -27,6 +20,10 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
 
 ## 閲覧・編集に必要なCAD (開発環境)
   * KiCad Version (5.1.9)-1 (またはそれ以降)
+
+## 回路図
+
+  * [v2021-04](https://github.com/ytsurui/dcc-decoder2-pcbdata/releases/tag/v2021-04)
 
 ## 対応するファームウェア
   * [ATtiny1606 DCC Decoder Firmware](https://github.com/ytsurui/dcc-decoder2-firmware)
