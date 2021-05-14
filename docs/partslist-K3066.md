@@ -1,4 +1,4 @@
-# Parts List (MotorDecoder2-K3066)
+# Parts List (MotorDecoder2-K3066, Rev3)
 
 <table>
   <th>
@@ -129,10 +129,10 @@
     <a href="https://akizukidenshi.com/catalog/g/gP-13377/">秋月電子通商</a></td>
   </tr>
   <tr>
-    <td>R1, R2</td>
+    <td>R1, R2, R17, R18</td>
     <td>100kohm 1/16W 1005</td>
     <td>1.0x0.5mm</td>
-    <td>2</td>
+    <td>4</td>
     <td><a href="https://www.digikey.jp/product-detail/ja/bourns-inc/CR0402-FX-1003GLF/CR0402-FX-1003GLFCT-ND/3740841">Digikey (ja)</a></td>
   </tr>
   <tr>
@@ -177,17 +177,10 @@
     <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP472J/2019-RK73B1ETTP472JCT-ND/9846006">Digikey (ja)</a></td>
   </tr>
   <tr>
-    <td>R13, R32, R34, R36, R38</td>
+    <td>R13, R16, R32, R34, R36, R38</td>
     <td>10kohm 1/16W 1005</td>
     <td>1.0x0.5mm</td>
     <td>5</td>
-    <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP103J/2019-RK73B1ETTP103JCT-ND/9846004">Digikey (ja)</a></td>
-  </tr>
-  <tr>
-    <td>C6<br>(表記ミス、次Revで修正)</td>
-    <td>10kohm 1/16W 1005</td>
-    <td>1.0x0.5mm</td>
-    <td>1</td>
     <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP103J/2019-RK73B1ETTP103JCT-ND/9846004">Digikey (ja)</a></td>
   </tr>
   <tr>

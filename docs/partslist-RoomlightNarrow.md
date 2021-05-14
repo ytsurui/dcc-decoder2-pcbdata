@@ -1,4 +1,4 @@
-# Parts List (MotorDecoder2-Roomlight-Narrow)
+# Parts List (MotorDecoder2-Roomlight-Narrow, Rev2)
 
 <table>
   <th>
@@ -136,13 +136,20 @@
     <a href="https://akizukidenshi.com/catalog/g/gP-13377/">秋月電子通商</a></td>
   </tr>
   <tr>
-    <td>R1, R2</td>
-    <td>100kohm 1/10W 1605</td>
+    <td>R1, R2, R17</td>
+    <td>100kohm 1/10W 1608</td>
     <td>1.6x0.8mm</td>
-    <td>2</td>
+    <td>3</td>
     <td><a href="https://www.digikey.jp/products/ja/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&sv=0&pv2085=u100+kOhms&sf=1&FV=-8%7C52%2C16%7C39246&quantity=&ColumnSort=0&page=1&pageSize=25">Digikey (ja)</a><br />
     <a href="https://www.digikey.jp/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&sv=0&pv2085=u100+kOhms&sf=1&FV=-8%7C52%2C16%7C39246&quantity=&ColumnSort=0&page=1&pageSize=25">Digikey (en)</a><br />
     <a href="https://akizukidenshi.com/catalog/g/gR-15321/">秋月電子通商</a></td>
+  </tr>
+  <tr>
+    <td>R18</td>
+    <td>100kohm 1/16W 1005</td>
+    <td>1.0x0.5mm</td>
+    <td>1</td>
+    <td><a href="https://www.digikey.jp/product-detail/ja/bourns-inc/CR0402-FX-1003GLF/CR0402-FX-1003GLFCT-ND/3740841">Digikey (ja)</a></td>
   </tr>
   <tr>
     <td>R3, R4</td>
@@ -195,17 +202,10 @@
     <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP472J/2019-RK73B1ETTP472JCT-ND/9846006">Digikey (ja)</a></td>
   </tr>
   <tr>
-    <td>R13, R32, R34, R36, R38</td>
+    <td>R13, R16, R32, R34, R36, R38</td>
     <td>10kohm 1/16W 1005</td>
     <td>1.0x0.5mm</td>
     <td>5</td>
-    <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP103J/2019-RK73B1ETTP103JCT-ND/9846004">Digikey (ja)</a></td>
-  </tr>
-  <tr>
-    <td>C6<br>(表記ミス、次Revで修正)</td>
-    <td>10kohm 1/16W 1005</td>
-    <td>1.0x0.5mm</td>
-    <td>1</td>
     <td><a href="https://www.digikey.jp/product-detail/ja/koa-speer-electronics-inc/RK73B1ETTP103J/2019-RK73B1ETTP103JCT-ND/9846004">Digikey (ja)</a></td>
   </tr>
   <tr>
