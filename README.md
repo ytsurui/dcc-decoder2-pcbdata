@@ -16,6 +16,7 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
   * [K3066RA](docs/readme-K3066.md)
   * [K3057RA](docs/readme-K3057.md)
   * [M02F7RA Roomlight-N](docs/readme-roomlight-n.md)
+  * [M02F7RA](docs/readme-normal.md)
 
 
 ## 閲覧・編集に必要なCAD (開発環境)
