@@ -9,9 +9,6 @@ NMRA規格の信号を受信して動作する、DCCデコーダの基板設計�
 30mm x 10mmの汎用形状となっており、基板搭載スペースが確保可能な鉄道模型車両に搭載することができます。
 
   * [基板設計データ](../Normal/KiCad)
-  * [面付けデータ](../Normal/KiCad-Panelized)
-  * [ガーバーデータ(面付け済)](../Normal/Gerber-Panelized)
-  * [メタルマスクデータ(面付け済)](../Normal/Stencil-Panelized)
   
 ## 主要スペック
   * 組み立て後の基板サイズ： 30mm x 10mm x 1.7mm
