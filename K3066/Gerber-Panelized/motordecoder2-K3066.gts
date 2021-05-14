@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*%
-%TF.CreationDate,2021-04-24T22:15:52+09:00*%
+%TF.CreationDate,2021-05-10T22:47:09+09:00*%
 %TF.ProjectId,motordecoder2,6d6f746f-7264-4656-936f-646572322e6b,rev?*%
 %TF.SameCoordinates,PX66ff300PY81390e0*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-04-24 22:15:52*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-05-10 22:47:09*
 %MOMM*%
 %LPD*%
 G01*
