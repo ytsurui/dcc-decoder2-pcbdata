@@ -2,3 +2,7 @@
 *.sch-bak
 *.bak
 fp-info-cache
+*.zip
+*.7z
+.DS_Store
+._.DS_Store
