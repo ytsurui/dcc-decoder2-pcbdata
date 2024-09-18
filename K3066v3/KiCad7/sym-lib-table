@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "6pin-mosfet")(type "Legacy")(uri "${KIPRJMOD}/library/6pin-mosfet.lib")(options "")(descr ""))
+  (lib (name "motordecoder2-rescue")(type "KiCad")(uri "${KIPRJMOD}/motordecoder2-rescue.kicad_sym")(options "")(descr ""))
+)
