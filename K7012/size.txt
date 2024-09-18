@@ -1,0 +1,2 @@
+width: 70.00mm
+height: 97.50mm
