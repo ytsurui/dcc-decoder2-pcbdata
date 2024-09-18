@@ -1,0 +1,18 @@
+(module PAD_PROG_2PIN_HOLE0.7 (layer F.Cu) (tedit 5FFF0E9E)
+  (fp_text reference P** (at 0 1.5) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.14)))
+  )
+  (fp_text value PAD_PROG_2PIN_HOLE0.7_V2 (at 0 -1.5) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.14)))
+  )
+  (fp_line (start -1.25 -0.63) (end -1.25 0.63) (layer B.SilkS) (width 0.18))
+  (fp_line (start 1.25 0.63) (end -1.25 0.63) (layer B.SilkS) (width 0.18))
+  (fp_line (start 1.25 -0.63) (end 1.25 0.63) (layer B.SilkS) (width 0.18))
+  (fp_line (start -1.25 -0.63) (end 1.25 -0.63) (layer B.SilkS) (width 0.18))
+  (fp_line (start -1.25 -0.63) (end 1.25 -0.63) (layer F.SilkS) (width 0.18))
+  (fp_line (start 1.25 -0.63) (end 1.25 0.63) (layer F.SilkS) (width 0.18))
+  (fp_line (start 1.25 0.63) (end -1.25 0.63) (layer F.SilkS) (width 0.18))
+  (fp_line (start -1.25 -0.63) (end -1.25 0.63) (layer F.SilkS) (width 0.18))
+  (pad 1 thru_hole rect (at -0.635 0) (size 0.95 0.95) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 2 thru_hole rect (at 0.635 0) (size 0.95 0.95) (drill 0.7) (layers *.Cu *.Mask))
+)
