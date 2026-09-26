@@ -1,0 +1,94 @@
+(footprint "KATO_FRAMEPAD_3066_v3_Right"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "P**"
+		(at 0 -1.75 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "060ee333-0d78-4b18-aa64-24877cb8433d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KATO_FRAMEPAD_3066_v3_Right"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "193786e8-3d0c-417a-832e-476df0c1aaf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c683e0-d7fa-4367-82ea-24da1b216eb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7919cea-09ba-4029-ac8f-6c45a465b7e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9ac122d-e692-4673-ac19-9a58f610ff1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole rect
+		(at -1 0 180)
+		(size 1.6 1.8)
+		(drill 0.8
+			(offset -0.2 -0.1)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19cd9774-1e2d-4b9f-90b3-5f4725b20ba9")
+	)
+	(pad "1" thru_hole rect
+		(at 1 0 180)
+		(size 2 1.8)
+		(drill 0.8
+			(offset 0 -0.1)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abdab874-1ba8-4372-b46c-62aafa307342")
+	)
+	(pad "1" smd rect
+		(at 5.15 0.1 180)
+		(size 6.3 1.8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_paste_margin_ratio -0.5)
+		(uuid "a1d1cb7d-afd4-4992-b8e6-cb888bfed30f")
+	)
+)
