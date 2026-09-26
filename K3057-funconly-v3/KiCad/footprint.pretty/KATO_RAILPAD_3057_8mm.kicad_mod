@@ -1,0 +1,74 @@
+(footprint "KATO_RAILPAD_3057_8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "P**"
+		(at 0 1.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a8a31f5-78cf-44a4-8837-0f8b73db3e8f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Value" "KATO_RAILPAD_3057_8mm"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ae37e5f-1d9a-41a9-a33d-f845ee7ab3a7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21385b4d-c71e-48ab-856f-a9bc4f771017")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5939e250-d274-4e47-a912-23ade32cc0e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "893a4b81-f52c-420c-b2eb-778bc70abca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at 0 0.1)
+		(size 7.6 1.8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(solder_paste_margin_ratio -0.5)
+		(uuid "4db7dc53-3e87-440a-a1d6-f1bb266476fe")
+	)
+)

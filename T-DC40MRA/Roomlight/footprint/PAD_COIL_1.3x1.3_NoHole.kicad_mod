@@ -1,0 +1,63 @@
+(footprint "PAD_COIL_1.3x1.3_NoHole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "P**"
+		(at 0 1.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fcf7e0d0-57a9-4365-956d-02505eb28331")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Value" "PAD_COIL_1.3x1.3_NoHole"
+		(at 0 -1.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1424c2-8f1b-4968-93f4-ffcd6ef6f756")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a7c989a-305b-46f0-85d0-8d8ce0f20ae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8452fe7c-58be-41f5-8982-b49ed4ae192a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "84352df9-5579-4ae3-b22c-fbb138576026")
+	)
+	(embedded_fonts no)
+)
