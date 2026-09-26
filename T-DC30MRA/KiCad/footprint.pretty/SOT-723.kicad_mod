@@ -1,0 +1,129 @@
+(footprint "SOT-723"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Q**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5f8ffe0-24bb-44c0-9dfd-69ec964578eb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "SOT-723"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "149ea19b-fc23-474b-ab12-0c5651dd02c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5f6ecfd-c5fc-485a-84b8-57ccb163a6a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7c84d91-3eb1-4efc-ad67-1a5243297eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -0.4)
+		(end -0.6 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "477fc6df-22c8-46d4-96aa-69bd424d859b")
+	)
+	(fp_line
+		(start -0.6 -0.4)
+		(end 0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f1496df-feae-473f-856a-dc4d2e4ad9f0")
+	)
+	(fp_line
+		(start -0.6 0.4)
+		(end 0.6 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b72baae6-578b-4510-86e8-d8b9a25d3cd8")
+	)
+	(fp_line
+		(start 0.6 0.4)
+		(end 0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef9db9fe-021e-430f-9dd4-c9717b14e3d2")
+	)
+	(pad "1" smd rect
+		(at -0.4 0.575)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3223629-4bb8-424e-884c-bfe83fe5a635")
+	)
+	(pad "2" smd rect
+		(at 0.4 0.575)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bd889c4-b517-44fe-abd5-413c5bb0e2d9")
+	)
+	(pad "3" smd rect
+		(at 0 -0.575)
+		(size 0.5 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "074f5f59-2b5e-4d6b-8ea4-e4b8fbbae602")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_DRT-3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
