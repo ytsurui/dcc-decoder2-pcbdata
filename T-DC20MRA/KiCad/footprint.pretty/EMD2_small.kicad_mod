@@ -1,0 +1,18 @@
+(module EMD2_small (layer F.Cu) (tedit 60030B94)
+  (fp_text reference D** (at 0 1.27) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.14)))
+  )
+  (fp_text value EMD2_small (at 0 -1.27) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.14)))
+  )
+  (fp_line (start 0.25 -0.5) (end 0.25 0.5) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.7 0.5) (end 0.7 0.5) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.7 -0.5) (end 0.7 -0.5) (layer F.SilkS) (width 0.2))
+  (pad 2 smd rect (at -0.85 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.85 0) (size 0.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-523.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)
