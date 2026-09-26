@@ -1,0 +1,73 @@
+(footprint "PCB_CONN_PAD_3pin_2.5mmx1.2mm_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(uuid "41f32eda-2a18-4e23-9b03-13100116de0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_CONN_PAD_3pin_2.5mmx1.2mm_SMD"
+		(at 0 -3.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05dc5d19-7c5a-4e55-a36a-95e3de66a8ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "000e5957-8c7f-4335-8224-5807d6f2ba28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4cf5dd2-d629-4d55-b208-f14ee9bd43f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at 0 -2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "efd260c3-8376-40a7-920c-e002d1f8a0e6")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a46a158e-7fd0-4ccc-a18b-8966d79e6f14")
+	)
+	(pad "3" smd rect
+		(at 0 2)
+		(size 2.5 1.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "80f6ee50-77d5-423d-953e-77b067f41554")
+	)
+	(embedded_fonts no)
+)

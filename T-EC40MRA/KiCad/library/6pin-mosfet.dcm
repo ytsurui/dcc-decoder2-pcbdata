@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002DW
+D 60V Vds, 115mA Id, 7.5Ohm Rds, Dual N-Channel MOSFET, SC70-6
+K Dual N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002DW.pdf
+$ENDCMP
+#
+$CMP DMG6601LVT
+D 30V Vds, 3.8A / 2.5A Id, 55mOhm Rds, Dual N/P-Channel MOSFET, TSOT23-6
+K Dual N/P-Channel MOSFET
+F http://www.diodes.com/_files/datasheets/DMG6601LVT.pdf
+$ENDCMP
+#
+$CMP DMG6602SVT
+D 30V Vds, 3.4A / 2.8A Id, 60mOhm Rds, Dual N/P-Channel MOSFET, TSOT23-6
+K Dual N/P-Channel MOSFET
+F http://www.diodes.com/_files/datasheets/DMG6602SVT.pdf
+$ENDCMP
+#
+$CMP FDC6333C
+D 30V Vds, 2.5A / 2A Id, 95mOhm Rds, Dual N/P-Channel MOSFET, SSOT-6
+K Dual N/P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDC6333C.pdf
+$ENDCMP
+#
+#End Doc Library
